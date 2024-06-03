@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title></title>
+    <link rel="icon" type="image/x-icon" href="img/icons8-calculator-16.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="style.css" rel="stylesheet">
+
+
+</head>
+
+<body >
+    <h1 title="dd">เครื่องคิดเลข โดยน้องพี</h1>
+    <p id="time"></p>
+        <div class="container">
+            <input type="text" id="textbox" placeholder="ใส่สมการเช่น(1+1)" >
+        </div>
+        
+    </form>
+<div class="container">
+
+            <button id="1" class="digit" onclick="one()">1</button>
+            <button id="2" class="digit" onclick="two()">2</button>
+            <button id="3" class="digit" onclick="three()">3</button>
+            <button id="4" class="digit" onclick="four()">4</button>
+            <button id="5" class="digit" onclick="five()">5</button>
+            <button id="6" class="digit" onclick="six()">6</button>
+            <button id="7" class="digit" onclick="seven()">7</button>
+            <button id="8" class="digit" onclick="eight()">8</button>
+            <button id="9" class="digit" onclick="nine()">9</button>
+            <button id="0" class="digit" onclick="zero()">0</button>
+            <button id="dot" class="digit" onclick="dot()">.</button>
+            <button  class="operator" onclick="plus()">+</button>
+            <button  class="operator" onclick="minus()">-</button>
+            <button  class="operator" onclick="multiply()">x</button>
+            <button  class="operator" onclick="divide()">÷</button>
+            <button  class="clr" onclick="document.getElementById('textbox').value=''">Clear</button>
+            <button  class="del" onclick="del()">Delete</button>
+            <button  class="enter" onclick="enter()">Enter</button>
+
+        </div>
+    <!-- <div style="width:640px;height:480px;max-width:100%">
+        <div id="game"></div>
+    </div>
+    <script>
+        EJS_player = "#game";
+        EJS_core = "nes";
+        EJS_pathtodata = "https://cdn.emulatorjs.org/stable/data/";
+        EJS_biosUrl = '';
+        EJS_gameUrl = "https://static.emulatorgames.net/roms/nintendo/1200-in-1%20(J)%20[p1].zip";
+    </script>
+
+    <script src="https://cdn.emulatorjs.org/stable/data/loader.js"></script> -->
+    <script src="index.js"></script>
+</body>
+
+</html>
